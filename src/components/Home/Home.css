@@ -1,0 +1,19 @@
+.home-style {
+    background-image: url("../../img/bgimg.jpg");
+    width: 40%;
+    border: 1px solid red;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width: 700px) {
+    .home-style {
+        width: 70%;
+    }
+}
